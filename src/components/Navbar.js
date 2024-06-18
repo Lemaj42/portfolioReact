@@ -60,23 +60,24 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <a
                                     className="nav-link"
-                                    href="https://cdnjs.cloudflare.com/"
+                                    href="https://www.linkedin.com/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <span className="fa fa-linkedin"></span>
+                                    <span className="fab fa-linkedin"></span>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a
                                     className="nav-link"
-                                    href="https://github.com/Lemaj42"
+                                    href="https://github.com/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     <span className="fab fa-github"></span>
                                 </a>
                             </li>
+
                         </ul>
                     </div>
                 </div>

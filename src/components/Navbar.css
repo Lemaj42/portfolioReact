@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin: 10;
+    font-family: "Saira Semi Condensed", sans-serif !important;
 }
 
 .nav-item {

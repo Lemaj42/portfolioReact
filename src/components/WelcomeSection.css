@@ -8,8 +8,16 @@
     background-image: url('../image/wallpaper/image1.jpg');
     background-size: cover;
     background-position: center;
-    margin-top: 90px;
-    height: 50vh;
+    height: 70vh;
+    font-family: "Saira Semi Condensed", sans-serif !important;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Saira Semi Condensed", sans-serif !important;
+    color: white !important;
 }
 
 .main-container {

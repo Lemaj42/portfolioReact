@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+/* Assurez-vous que ce fichier est correctement importé dans votre composant */
+
+#infos-section {
+    padding: 40px 0;
+    font-family: "Saira Semi Condensed", sans-serif !important;
+}
+
+h2 {
+    font-size: 2.5rem;
+    /* Ajustez la taille de la police selon vos besoins */
+    margin-bottom: 20px;
+    /* Ajustez la marge inférieure selon vos besoins */
+    text-align: center;
+    color: #23abd4 !important;
+    font-family: "Saira Semi Condensed", sans-serif !important;
+}
+
+.h2Bis {
+    font-size: 2.5rem;
+    /* Ajustez la taille de la police selon vos besoins */
+    margin-bottom: 20px;
+    /* Ajustez la marge inférieure selon vos besoins */
+    text-align: left;
+    color: #23abd4 !important;
+    font-family: "Saira Semi Condensed", sans-serif !important;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.h-70 {
+    height: 70%;
+}
+
+.custom-margin {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+    /* Ajustez la valeur de la marge inférieure selon vos besoins */
+    border-radius: 50%;
+}
+
+.custom-background {
+    margin-left: 1%;
+    background-color: rgba(0, 0, 0, 0.58);
+    /* Utilisation de rgba pour la transparence */
+    padding: 20px;
+    /* Ajout de padding pour l'espace intérieur */
+    border-radius: 8px;
+    /* Ajout de bordures arrondies */
+}
+
+.text-left {
+    text-align: left;
+}
+
+.projects {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    /* Ajustez la taille de la police selon vos besoins */
+    line-height: 1.5;
+}
