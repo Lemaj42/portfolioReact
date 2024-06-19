@@ -18,7 +18,7 @@ const Carousel = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={Hopitale} className="d-block w-200" alt="Hopital" />
+                    <img src={Hopitale} className="d-block w-100" alt="Hopital" />
                     <div className="carousel-caption d-none d-md-block caption-container">
                         <div className="caption-content">
                             <h4 className="text-uppercase fw-bold mb-4">Création d'un registre client pour un hôpital.</h4>

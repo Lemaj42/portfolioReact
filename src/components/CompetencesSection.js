@@ -9,8 +9,8 @@ import WordPress from '../image/logo/wordpress_logo.png';
 
 const CompetencesSection = () => {
     return (
-        <section id="competences-section" className="text-white text-center" style={{ backgroundImage: `url(${Image3})`, height: '300px', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="container-fluid h-250">
+        <section id="competences-section" className="text-white text-center" style={{ backgroundImage: `url(${Image3})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <div className="container-fluid">
                 <div className="row justify-content-center align-items-center">
                     <h2 className="mt-3 display-4"><strong>Technologies maîtrisées</strong></h2>
                 </div>

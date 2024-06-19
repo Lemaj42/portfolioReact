@@ -56,4 +56,5 @@
 
 .back-to-top {
     background: #23abd4 !important;
+    z-index: 100;
 }

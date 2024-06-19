@@ -4,7 +4,7 @@ import Image5 from '../image/wallpaper/image5.jpg';
 
 const ProjectsSection = () => {
     return (
-        <section id="Projets-section" className="text-black text-center" style={{ backgroundImage: `url(${Image5})`, height: '1000px', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <section id="Projets-section" className="text-black text-center" style={{ backgroundImage: `url(${Image5})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className="row justify-content-center align-items-center">
                 <h2 className="mt-3 display-4"><strong>Mes Projets</strong></h2>
             </div>
