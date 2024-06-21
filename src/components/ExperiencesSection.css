@@ -11,7 +11,8 @@
 
 .partCV {
     width: 100%;
-    height: 10px;/* Hauteur fixe de 10px par layer, on dirait qu'on ne peut pas rendre cette valeur responsive car il faut recaler TOUS les background-position des .oneX, c'est peut être possible mais à à creuser */
+    height: 10px;
+    /* Hauteur fixe de 10px par layer, on dirait qu'on ne peut pas rendre cette valeur responsive car il faut recaler TOUS les background-position des .oneX, c'est peut être possible mais à à creuser */
     background-image: url('../image/cvImage.png');
     background-size: cover;
     backface-visibility: visible;
@@ -212,46 +213,57 @@
     background-position: 0 -3700%;
     animation-delay: 3.7s;
 }
+
 .one39 {
     background-position: 0 -3800%;
     animation-delay: 3.8s;
 }
+
 .one40 {
     background-position: 0 -3900%;
     animation-delay: 3.9s;
 }
+
 .one41 {
     background-position: 0 -4000%;
     animation-delay: 4s;
 }
+
 .one42 {
     background-position: 0 -4100%;
     animation-delay: 4.1s;
 }
+
 .one43 {
     background-position: 0 -4200%;
     animation-delay: 4.2s;
 }
+
 .one44 {
     background-position: 0 -4300%;
     animation-delay: 4.3s;
 }
+
 .one45 {
     background-position: 0 -4400%;
     animation-delay: 4.4s;
 }
+
 .one46 {
     background-position: 0 -4500%;
     animation-delay: 4.5s;
 }
+
 .one47 {
     background-position: 0 -4600%;
     animation-delay: 4.6s;
 }
+
 .one48 {
     background-position: 0 -4700%;
     animation-delay: 4.7s;
 }
+
 .one49 {
     background-position: 0 -4800%;
     animation-delay: 4.8s;
