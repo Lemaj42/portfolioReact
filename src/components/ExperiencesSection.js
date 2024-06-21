@@ -16,13 +16,6 @@ const ExperiencesSection = () => {
                         <h3><strong>Handicall - Malakoff</strong></h3>
                         <p>Téléconseiller (2016 - 2021)</p>
                     </div>
-                    {/* <div className="col-md-4 col-12 text-center px-0" id="borderEX">
-                        <a target="_blank" href="https://drive.google.com/file/d/1UEqW9tqrpNfAsGRt9AxVjbydukrW0xqM/view?usp=sharing" rel="noopener noreferrer" download>
-                            <img src={CV} alt="Abdelmadjid" style={{ maxWidth: '30%' }} />
-                        </a>
-                    </div>
-                    <a target="_blank" href="https://drive.google.com/file/d/1UEqW9tqrpNfAsGRt9AxVjbydukrW0xqM/view?usp=sharing" rel="noopener noreferrer" download></a>
-                    */}
                     <div class="containerCV">
                         <div class="wrapperCV">
                             <a href='https://drive.google.com/file/d/1UEqW9tqrpNfAsGRt9AxVjbydukrW0xqM/view?usp=sharing' target='_blank'>
