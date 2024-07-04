@@ -18,7 +18,7 @@ const ExperiencesSection = () => {
                     </div>
                     <div class="containerCV">
                         <div class="wrapperCV">
-                            <a href='https://drive.google.com/file/d/1UEqW9tqrpNfAsGRt9AxVjbydukrW0xqM/view?usp=sharing' target='_blank'>
+                            <a href='https://drive.google.com/file/d/1UEqW9tqrpNfAsGRt9AxVjbydukrW0xqM/view?usp=sharing' rel='noreferrer' target='_blank'>
                                 <div class="partCV one"></div>
                                 <div class="partCV one1"></div>
                                 <div class="partCV one2"></div>

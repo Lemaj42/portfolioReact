@@ -11,7 +11,7 @@ const Carousel = () => {
                 <div class="content">
                     <h2 class="title">HOPITAL CHABAN</h2>
                     <p class="copy">Création d'un registre client pour un hôpital</p>
-                    <a href="https://abdelmadjid-hopitalchabane.projets.p8.garage404.com" target="_blank">
+                    <a href="https://abdelmadjid-hopitalchabane.projets.p8.garage404.com" rel='noreferrer' target="_blank">
                         <button class="btn">Voir plus</button>
                     </a>
                 </div>
@@ -20,7 +20,7 @@ const Carousel = () => {
                 <div class="content">
                     <h2 class="title">THE TCHAT</h2>
                     <p class="copy">Mise en place d'un chat privé.</p>
-                    <a href="https://abdel-minichat.projets.p8.garage404.com/" target="_blank">
+                    <a href="https://abdel-minichat.projets.p8.garage404.com/" rel='noreferrer' target="_blank">
                         <button class="btn">Voir plus</button>
                     </a>
                 </div>
@@ -29,7 +29,7 @@ const Carousel = () => {
                 <div class="content">
                     <h2 class="title">LOW COST TRAVEL</h2>
                     <p class="copy">Création d'une plateforme de recrutement.</p>
-                    <a href="https://madjid-luxury.projets.p8.garage404.com/" target="_blank">
+                    <a href="https://madjid-luxury.projets.p8.garage404.com/" rel='noreferrer' target="_blank">
                         <button class="btn">Voir plus</button>
                     </a>
                 </div>
@@ -38,7 +38,7 @@ const Carousel = () => {
                 <div class="content">
                     <h2 class="title">LUXURY SERVICES</h2>
                     <p class="copy">Développement d'un comparateur de vols.</p>
-                    <a href="https://abdelrabehcomparator.projets.p8.garage404.com//" target="_blank" class="">
+                    <a href="https://abdelrabehcomparator.projets.p8.garage404.com//" rel='noreferrer' target="_blank" class="">
                         <button class="btn">Voir plus</button>
                     </a>
                 </div>
