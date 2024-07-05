@@ -292,3 +292,11 @@
         transform: rotateY(0deg);
     }
 }
+
+/* .test {
+    margin-right: -20px !important;
+} */
+
+.html {
+    width: 100% !important;
+}

@@ -5,8 +5,8 @@ import "./ExperiencesSection.css";
 const ExperiencesSection = () => {
     return (
         <section id="Experiences-section" className="text-white text-center pb-5" style={{ backgroundImage: `url(${Image2})` }}>
-            <div className="row justify-content-center align-items-center text-center">
-                <h2 className="mt-3 display-4"><strong>Expériences professionnelles</strong></h2>
+            <div className="row justify-content-center align-items-center text-center ">
+                <h2 className="mt-3 display-4 "><strong>Expériences professionnelles</strong></h2>
             </div>
             <div className="container-fluid">
                 <div className="row justify-content-center align-items-center">

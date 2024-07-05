@@ -5,11 +5,21 @@
     padding-bottom: 20px;
     color: white;
     text-align: center;
-    background-image: url('../image/wallpaper/image1.jpg');
+    /* background-image: url('../image/wallpaper/image1.jpg'); */
     background-size: cover;
     background-position: center;
     height: 70vh;
     font-family: "Saira Semi Condensed", sans-serif !important;
+    overflow: hidden;
+}
+
+#videoBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    object-fit: cover;
+
 }
 
 h2 {
