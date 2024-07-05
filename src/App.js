@@ -12,7 +12,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <WelcomeSection />
       <InfosSection />
@@ -20,7 +20,7 @@ const App = () => {
       <ProjectsSection />
       <CompetencesSection />
       <ContactSection />
-    </div>
+    </>
   );
 };
 
