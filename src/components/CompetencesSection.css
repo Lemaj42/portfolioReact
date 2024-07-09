@@ -1,68 +1,114 @@
-#technos {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 20vh;
-    position: relative;
-
-    width: 100%;
+#competences-section {
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
 }
 
-#technos img {
-    height: 30%;
-    filter: grayscale(1);
-    padding-bottom: 1rem;
+.container-fluid {
+    padding: 20px;
 }
-
-#technos img:hover {
-    filter: drop-shadow(0 0 2px #fff);
-    border-bottom: 2px solid #fff;
-}
-
 
 .skills {
     display: flex;
     justify-content: space-around;
     padding-top: 35px;
     padding-bottom: 35px;
+    flex-wrap: wrap;
 }
 
 .skills div {
     width: 50%;
 }
 
-.filter {
-    filter: invert(1) !important;
-
-}
-
+#technos,
 #technos1 {
     margin-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 20vh;
+    height: auto;
     position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#technos1 {
+    justify-content: center;
+}
+
+#technos img,
+#technos1 img {
+    max-width: 100%;
+    max-height: 100px;
+    /* Limite maximale de hauteur pour les grands écrans */
+    height: auto;
+    filter: grayscale(1);
+    padding-bottom: 1rem;
+}
+
+#technos img {
+    padding-bottom: 1rem;
 }
 
 #technos1 img {
-    height: 30%;
-    filter: grayscale(1);
-    padding-bottom: 1rem;
     margin: 0 3rem;
 }
 
+#technos img:hover,
 #technos1 img:hover {
     filter: drop-shadow(0 0 2px #fff);
-    border-bottom: 2px solid #070707;
+    border-bottom: 2px solid #fff;
 }
 
+.filter {
+    filter: invert(1) !important;
+}
 
-.skills {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 35px;
-    padding-bottom: 35px;
+@media (max-width: 1200px) {
+    .skills {
+        flex-direction: column;
+    }
+
+    #technos img,
+    #technos1 img {
+        width: 80px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #technos img,
+    #technos1 img {
+        width: 60px;
+        height: auto;
+    }
+
+    .skills .hard-skills,
+    .skills .soft-skills {
+        margin: 10px 0;
+    }
+
+    h2.display-4 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    #technos img,
+    #technos1 img {
+        width: 50px;
+        height: auto;
+    }
+
+    h2.display-4 {
+        font-size: 1.5rem;
+    }
+
+    .skills .hard-skills,
+    .skills .soft-skills {
+        margin: 5px 0;
+    }
 }

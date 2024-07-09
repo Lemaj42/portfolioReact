@@ -33,6 +33,8 @@
     transition: all 0.3s ease-in-out;
 }
 
+
+
 .nav-link:before {
     display: block;
     content: '';
@@ -57,4 +59,13 @@
 .back-to-top {
     background: #23abd4 !important;
     z-index: 100;
+}
+
+.navbar .nav-link {
+    color: black !important;
+}
+
+.navbar .nav-link:hover {
+    color: black !important;
+    /* Optionnel, pour s'assurer que la couleur ne change pas au survol */
 }

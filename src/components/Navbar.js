@@ -4,27 +4,17 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import './Navbar.css';
 
 const Navbar = () => {
-    const [showButton, setShowButton] = useState(false);
     const [navbarTextColor] = useState('light');
 
     useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 300) {
-                setShowButton(true);
-            } else {
-                setShowButton(false);
-            }
-        };
+        const handleScroll = () =>
 
-        window.addEventListener('scroll', handleScroll);
+            window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
 
     return (
         <>
@@ -64,7 +54,7 @@ const Navbar = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <span className="fab fa-linkedin"></span>
+                                    <i className="fa-brands fa-linkedin"></i>
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -74,7 +64,7 @@ const Navbar = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <span className="fab fa-github"></span>
+                                    <i className="fa-brands fa-github"></i>
                                 </a>
                             </li>
 
@@ -82,12 +72,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav >
-            {showButton && (
-                <button className="back-to-top" onClick={scrollToTop}>
-                    <i className="fa fa-arrow-up"></i>
-                </button>
-            )
-            }
         </>
     );
 };

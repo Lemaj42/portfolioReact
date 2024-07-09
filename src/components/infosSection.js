@@ -5,11 +5,11 @@ import FotoPerso1 from '../image/photoperso1.png';
 const InfosSection = () => {
     return (
         <section id="infos-section" className="text-white text-center">
-            <div className="container-fluid h-500">
+            <div className="container-fluid">
                 <div className="row justify-content-center align-items-center text-center">
-                    <h2 className=" h2bis mt-3 display-4"><strong>À propos de moi</strong></h2>
+                    <h2 className="h2bis mt-3 display-4"><strong>À propos de moi</strong></h2>
                 </div>
-                <div className="row h-70 justify-content-center align-items-center">
+                <div className="row justify-content-center align-items-center">
                     <div className="col-md-4" id="borderIN">
                         <img
                             className="img-fluid rounded-circle custom-margin"
@@ -30,4 +30,3 @@ const InfosSection = () => {
 };
 
 export default InfosSection;
-

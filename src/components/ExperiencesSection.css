@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+:root {
+    --d: 700ms;
+    --e: cubic-bezier(0.19, 1, 0.22, 1);
+    --font-sans: 'Rubik', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .containerCV {
     width: 40%;
     max-width: 400px;
@@ -12,12 +24,12 @@
 .partCV {
     width: 100%;
     height: 10px;
-    /* Hauteur fixe de 10px par layer, on dirait qu'on ne peut pas rendre cette valeur responsive car il faut recaler TOUS les background-position des .oneX, c'est peut être possible mais à à creuser */
+    /* Hauteur fixe de 10px par layer */
     background-image: url('../image/cvImage.png');
     background-size: cover;
     backface-visibility: visible;
     animation: turner 20s infinite;
-    transition: .5s
+    transition: .5s;
 }
 
 .one {
@@ -179,11 +191,6 @@
     animation-delay: 3.1s;
 }
 
-.one32 {
-    background-position: 0 -3100%;
-    animation-delay: 3.1s;
-}
-
 .one33 {
     background-position: 0 -3200%;
     animation-delay: 3.2s;
@@ -269,8 +276,6 @@
     animation-delay: 4.8s;
 }
 
-
-
 @keyframes turner {
     0% {
         transform: rotateY(0deg);
@@ -293,10 +298,38 @@
     }
 }
 
-/* .test {
-    margin-right: -20px !important;
-} */
+/* Media queries pour rendre le code responsive */
+@media (max-width: 1200px) {
+    .containerCV {
+        width: 50%;
+        max-width: 300px;
+    }
+}
 
-.html {
-    width: 100% !important;
+@media (max-width: 992px) {
+    .containerCV {
+        width: 60%;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerCV {
+        width: 70%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .containerCV {
+        width: 90%;
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .containerCV {
+        width: 100%;
+        max-width: 120px;
+    }
 }
